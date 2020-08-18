@@ -1,0 +1,38 @@
+				  lohit-marathi
+Current Version :- 2.94.2
+
+* Wed Apr 26 2017 Pravin Satpute <psatpute@redhat.com> - 2.94.2
+- Added appstream metadata file io.pagure.lohit.marathi.font.metainfo.xml
+
+* Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.94.1
+- PR for python2 to 3 from ShaguftaMethwani and mandarvaze.
+- Updated Makefile to call script from fontforge rather than python.
+
+* Thu Mar 20 2014 Pravin Satpute <psatpute@redhat.com> - 2.94.1
+- Porting from Devanagari to Marathi
+- Positioning lookup clean-up.
+- Improved grid fitting(GASP) table.
+- Renamed anchors to DVAnchor.
+- Using glyph reference (copy reference) instead of whole glyph points.
+- Auto test integrated with Makefile ($make test).
+- Resolved #32: "सर्व्हिस does not render correctly"
+- Resolved #33: "improper rendering for word : "मञ्यांच्या""
+
+* Mon Dec 23 2013 Pravin Satpute <psatpute@redhat.com> - 2.93.0
+- Forked Lohit Devanagari 2.93.0 for Marathi
+- Will output default Marathi locale specific ligatures and characters.
+- For improvements in Lohit Devanagari see
+https://raw.github.com/pravins/lohit/master/devanagari/ChangeLog
+
+* Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
+- corrected glyph class of "asciicircum"
+- Dropping RFN from OFL.txt
+
+* Wed Nov 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.2
+- corrected u0938 "स" character shape, #799004
+- improved shape of localized marathi sha, mr_la_la_lig patch from Shriramana Sharma
+
+* Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
+- This is fork of Lohit Devanagari specifically for marathi language
+- Using Lohit Devanagari with mr_IN locale is equivalent to this font
+- for older changes see Changelog of Lohit Devanagari
